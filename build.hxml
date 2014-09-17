@@ -1,0 +1,4 @@
+-main Main
+-cpp TestApp
+-cp src
+-D static_link

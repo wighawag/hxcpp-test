@@ -1,0 +1,21 @@
+package;
+
+class Main implements AppInstance{
+
+	static public function main(){
+		trace("main()");
+		App.instance = new Main( );
+	}
+
+	public function new(){
+		trace("new Main()");
+	}
+
+	public function init():Void{
+		trace("init()");
+	}
+
+	public function update():Void{
+		trace("update()");	
+	}
+}
