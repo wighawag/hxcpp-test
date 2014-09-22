@@ -1,5 +1,9 @@
 package;
 
+import hxcpp.StaticStd;
+import hxcpp.StaticZlib;
+import hxcpp.StaticRegexp;
+
 class Main implements AppInstance{
 
 	static public function main(){
