@@ -6,6 +6,8 @@ import hxcpp.StaticRegexp;
 
 class Main implements AppInstance{
 
+	var t : TestValue;
+
 	static public function main(){
 		trace("main()");
 		App.instance = new Main( );
