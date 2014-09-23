@@ -1,10 +1,19 @@
 #include <iostream>
 
-#include "App.h"
+class App_obj{
+public:
+	static int init();
+	static int update();
+
+};
+
+
 
 extern "C" const char *hxRunLibrary();
 extern "C" void hxcpp_set_top_of_stack();
 	
+
+
 
 // Glue imeplementation cpp side
 struct HaxeApp //: public VirtualAppBase

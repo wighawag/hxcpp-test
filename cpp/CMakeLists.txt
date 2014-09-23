@@ -15,8 +15,8 @@ set(libs
 	#"/Program Files (x86)/Microsoft SDKs/Windows/v7.1A/Lib/User32.Lib"
    )
 
-include_directories("/HaxeToolkit/haxe/lib/hxcpp/3,1,39/include")
-include_directories("../TestApp/include")
+#include_directories("/HaxeToolkit/haxe/lib/hxcpp/3,1,39/include")
+#include_directories("../TestApp/include")
 
 add_executable(HaxeTest ${sources})
 

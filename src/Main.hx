@@ -7,7 +7,7 @@ import hxcpp.StaticRegexp;
 class Main implements AppInstance{
 
 	static public function main(){
-		trace("main()");
+		trace("static main()");
 		App.instance = new Main( );
 	}
 
@@ -15,11 +15,11 @@ class Main implements AppInstance{
 		trace("new Main()");
 	}
 
-	public function init():Void{
-		trace("init()");
+	public function init(){
+		trace("calling init()");
 	}
 
-	public function update():Void{
-		trace("update()");	
+	public function update(){
+		trace("calling update()");	
 	}
 }
