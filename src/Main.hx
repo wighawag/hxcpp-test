@@ -4,9 +4,12 @@ import hxcpp.StaticStd;
 import hxcpp.StaticZlib;
 import hxcpp.StaticRegexp;
 
+import ff.Include;
+import ff.FFValue;
+
 class Main implements AppInstance{
 
-	var t : TestValue;
+	var t : FFValue;
 
 	static public function main(){
 		trace("main()");
