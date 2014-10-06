@@ -4,4 +4,5 @@
 -lib hxcpp
 -D static_link
 -dce no
-#-D ABI=-MD
+-D ABI=-MTd
+-debug

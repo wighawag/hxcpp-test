@@ -4,12 +4,9 @@ import hxcpp.StaticStd;
 import hxcpp.StaticZlib;
 import hxcpp.StaticRegexp;
 
-import ff.Include;
-import ff.FFValue;
+import engine.Include;
 
 class Main implements AppInstance{
-
-	var t : FFValue;
 
 	static public function main(){
 		trace("static main()");
@@ -24,7 +21,7 @@ class Main implements AppInstance{
 		trace("calling init()");
 	}
 
-	public function update(){
-		trace("calling update()");	
+	public function update(area : Int){
+		trace("calling update(" + area + ")");	
 	}
 }

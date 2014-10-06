@@ -3,5 +3,5 @@ package;
 interface AppInstance
 {
     function init():Void;
-    function update():Void;
+    function update(area : Int):Void;
 }
