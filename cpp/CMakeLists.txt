@@ -5,7 +5,7 @@ set(sources src/haxetest.cpp
 	src/Rectangle.cpp 
    )
 set(libs  
-	../../TestApp/Main-debug	
+	../../lib/Main-debug	
    )
 
 include_directories("include")

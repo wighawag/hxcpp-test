@@ -1,8 +1,7 @@
 -main Main
--cpp TestApp
+-cpp lib
 -cp src
 -lib hxcpp
 -D static_link
--dce no
 -D ABI=-MTd
 -debug
