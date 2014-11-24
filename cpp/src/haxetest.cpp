@@ -59,4 +59,8 @@ int main()
 	::App_obj::init(1); 
 
 	::App_obj::update(::cpp::Pointer<Rectangle>(rect)); 
+
+	#ifdef WIN32
+		system("pause");
+	#endif
 }
