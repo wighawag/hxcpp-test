@@ -1,7 +1,6 @@
 package engine;
 
 @:structAccess
-@:unreflective
 @:include("Rectangle.h")
 @:native("Rectangle")
 extern class Rectangle{
